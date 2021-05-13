@@ -8,13 +8,12 @@
 	background: linear-gradient(rgba(20, 20, 20, 0.1), rgba(20, 20, 20, 0.1));
 }
 
-.logo img {max-width: 90px;}
-.primary-nav {padding-right: 50px;}
+.primary-nav {padding-right: 30%;}
 .primary-nav li {
 	display: inline-block;
 	margin: 0px 20px;
 	color: white;
-	font-size: 13pt;
+	font-size: 15pt;
 }
 
 .primary-nav a {
@@ -36,7 +35,7 @@
 
 /* Main banner */
 .main {
-	background: linear-gradient(rgba(20, 20, 20, 0.7), rgba(20, 20, 20, 0.7)), url(./images/apple-1838564_1920-main.jpg); /* Browser prefixes*/
+	background: linear-gradient(rgba(20, 20, 20, 0.7), rgba(20, 20, 20, 0.7)), url(./images/pexels-photo-546819.jpeg); /* Browser prefixes*/
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-attachment: fixed;
@@ -44,7 +43,7 @@
 	color: white;
 }
 
-.entry-banner h1 {font-family: "Source Sans Pro", Arial, sans-serif;}
+.entry-banner h1 {font-family:'Courier New', Courier, monospace}
 #hello {font-size: 28pt;}
 #name {font-size: 100pt;}
 #person-description {font-size: 33pt;}
@@ -53,7 +52,7 @@
 	width: 100%;
 	margin-top: 40px;
 	color: white;
-	font-family: "Roboto", Helvetica, serif;
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	font-size: 16pt;
 	border-radius: 0;
 	border: 2px solid white;
@@ -72,7 +71,6 @@
 /* About Me */
 .about {
 	padding: 3% 0;
-	background: linear-gradient(rgba(225, 225, 225, 0.94), rgba(225, 225, 225, 0.94)), url(./images/aboutbackground.jpg);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center center;
